@@ -4,7 +4,7 @@ import { useState } from "react"
 export const LoadingScreen = ({onComplete}) => {
 
     const [text, setText] = useState("")
-    const fullText = "<Ailise Wylie />"
+    const fullText = "<Ailíse Wylie />"
 
     // Type writter effect
     useEffect(() =>{
